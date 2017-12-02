@@ -238,7 +238,7 @@ public class AIClient implements Runnable
                else {
                    secondPlayer = player;
                }
-           long limit = System.currentTimeMillis() + (1000 / 6);
+           long limit = System.currentTimeMillis() + (5000 / 6);
            while (true) {
                long now = System.currentTimeMillis();
 
